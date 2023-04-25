@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">greenspace_project</string>
+    <string name="logo">GreenSpace</string>
+    <string name="strapnote">Make a Difference!</string>
+    <string name="email">E-mail</string>
+    <string name="email_hint">user@mail.com</string>
+    <string name="password">Password</string>
+    <string name="passwordhere">Password</string>
+</resources>
