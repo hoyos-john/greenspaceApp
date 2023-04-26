@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     //Object for the button
-    Button button;
+    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Intent to call new activity ,the below code does not include this
-                Intent intent = new Intent(getApplicationContext(), ConservationEvents.class);
+                Intent intent = new Intent(MainActivity.this, ConservationEvents.class);
                 startActivity(intent);
 
             }
