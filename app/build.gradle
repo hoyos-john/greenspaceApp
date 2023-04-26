@@ -6,16 +6,16 @@ plugins {
 
 android {
     namespace 'com.example.greenspace_project'
-    compileSdk 31 //33 before
+    compileSdk 33 //33 before
 
     defaultConfig {
         applicationId "com.example.greenspace_project"
         minSdk 19
-        targetSdk 31 //33before
+        targetSdk 33 //33before
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
 
     buildTypes {
